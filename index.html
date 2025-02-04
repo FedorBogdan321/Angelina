@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Квест для тебе на скільки ти мене знаєш(Запишеш відос як проходиш) ❤️</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f3f4f6;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #ef4444;
+    }
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin: 20px auto;
+      width: 60%;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    a {
+      display: inline-block;
+      background-color: #3b82f6;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    a:hover {
+      background-color: #2563eb;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <p>Почнемо тест?(Запиши відео):</p>
+    <a href="#" onclick="alert('Пробуй ше раз бо пизди дам 😊')">Ні</a>
+    <a href="#" onclick="nextTask1()">Так</a>
+  </div>
+
+  <script>
+    function nextTask1() {
+      document.body.innerHTML = `
+        <h1>1. Так почнімо</h1>
+        <div class="card">
+          <p>Скіки мені років??</p>
+          <a href="#" onclick="alert('Хочеш в такій позі???')">69</a>
+          <a href="#" onclick="nextTask2()">14</a>
+          <a href="#" onclick="alert('Пядисят двааааа')">52</a>
+          <a href="#" onclick="alert('Буде 03.06.2025')">15</a>
+        </div>
+      `;
+    }
+
+    function nextTask2() {
+      document.body.innerHTML = `
+        <h1>2. Це вопше було ізі такшо не радуйся</h1>
+        <div class="card">
+          <p>Хто я?</p>
+          <a href="#" onclick="alert('Да я ежик')">Єжик</a>
+          <a href="#" onclick="alert('Шо так грубо')">Богдан</a>
+          <a href="#" onclick="alert('Це грубо :(')">Бодя</a>
+          <a href="#" onclick="nextTask3()">Бодічка</a>
+          <a href="#" onclick="alert('Не ну сорян але бодічка ліпше')">Ай тігр</a>
+        </div>
+      `;
+    }
+
+    function nextTask3() {
+      document.body.innerHTML = `
+        <h1>3.Не ну пушка</h1>
+        <div class="card">
+          <p>Який в мене колір очей?</p>
+          <a href="#" onclick="alert('Ти шо вапше????')">Карі</a>
+          <a href="#" onclick="nextTask4()">Сіро-голубі</a>
+          <a href="#" onclick="alert('неа')">Голубі</a>
+          <a href="#" onclick="alert('Ну пчті почті аххаахах')">Зелені</a>
+          <a href="#" onclick="alert('Ну ти шо не розчаровуй мене')">Зелено коричневі</a>
+
+        </div>
+      `;
+    }
+
+    function nextTask4() {
+      document.body.innerHTML = `
+        <h1>Ай тігріца ну просто ваааа</h1>
+        <div class="card">
+          <p>Яка моя любима квітка?</p>
+          <a href="#" onclick="alert('Це твоя улюблена а не моя 😅')">Троянда</a>
+          <a href="#" onclick="alert('Такое 😅')">Ромашка</a>
+          <a href="#" onclick="alert('НЕА 😅')">Орхідея</a>
+          <a href="#" onclick="alert('ТИ ШО ВОПШЕ ЯКИЙ ПЕТРО 😅')">Петро</a>
+          <a href="#" onclick="nextTask5()">Тюльпанчик</a>
+          <a href="#" onclick="alert('Не хуйово пахне 😅')">Лаванда</a>
+          <a href="#" onclick="alert('Яка волошка ти шо мій друг волошка 😅')">Волошка</a>
+        </div>
+      `;
+    }
+
+    function nextTask5() {
+      document.body.innerHTML = `
+        <h1>5.Вай красавіца</h1>
+        <div class="card">
+          <p>Яка моя любима страва?</p>
+          <a href="#" onclick="alert('Не зовсім')">Піца</a>
+          <a href="#" onclick="alert('Тіко хрещатик')">Морозиво</a>
+          <a href="#" onclick="alert('Ай ну ладно правильна відповідь суші')">Ти👉👈</a>
+          <a href="#" onclick="alert('Такі не дуже :)')">Вареники</a>
+          <a href="#" onclick="alert('соска але нє')">Пільмені</a>
+          <a href="#" onclick="nextTask6()">Суші</a>
+        </div>
+      `;
+    }
+
+    function nextTask6() {
+      document.body.innerHTML = `
+        <h1>6. Де я мрію побувати?</h1>
+        <div class="card">
+          <p>Яка моя любима квітка?</p>
+          <a href="#" onclick="alert('Ех ну туда ше рано')">В пизді</a>
+          <a href="#" onclick="alert('Не те місто ')">Дубай</a>
+          <a href="#" onclick="nextTask7()">Дома</a>
+          <a href="#" onclick="alert('Ну я би був не проти але ти не пустиш')">В тебе дома</a>
+          <a href="#" onclick="alert('Не те місто ')">Амстердам</a>
+        </div>
+      `;
+    }
+
+    function nextTask7() {
+      document.body.innerHTML = `
+        <h1>Не ну тігр пустиш додому??</h1>
+        <div class="card">
+          <a href="#" onclick="alert('Жлоб')">Ні</a>
+          <a href="#" onclick="nextTask8()">Так</a>
+        </div>
+      `;
+    }
+
+    function nextTask8() {
+      document.body.innerHTML = `
+        <h1>Точнооооо?</h1>
+        <div class="card">
+
+          <a href="#" onclick="alert('А йди в дупу тоді')">Неа</a>
+          <a href="#" onclick="nextTask9()">Так</a>
+        </div>
+      `;
+    }
+
+    function nextTask9() {
+      document.body.innerHTML = `
+        <h1>Всьо скоро буду в тебе</h1>
+        <div class="card">
+
+
+          <a href="#" onclick="nextTask10()">Окей</a>
+          <a href="#" onclick="nextTask10()">Окей</a>
+
+        </div>
+      `;
+    }
+
+    function nextTask10() {
+      document.body.innerHTML = `
+        <h1>Що робить мене щасливим?</h1>
+        <div class="card">
+
+          <a href="#" onclick="alert('Нажаль ше не було')">Секс</a>
+          <a href="#" onclick="nextTask11()">Твої повідомлення</a>
+          <a href="#" onclick="alert('Це шоб розлабитись')">кіт</a>
+          <a href="#" onclick="alert('ну а чого би і ні')">ніхуя</a>
+          <a href="#" onclick="alert('Ну канешно ти але твої повідомлення просто вааа')">ти</a>
+        </div>
+      `;
+    }
+
+    function nextTask11() {
+      document.body.innerHTML = `
+        <h1>Всьо тігріца настоящая</h1>
+        <div class="card">
+          <p>ШО більше люблю</p>
+          <a href="#" onclick="alert('Хеєта')">Баскетбол</a>
+          <a href="#" onclick="nextTask12()">Футбол</a>
+        </div>
+      `;
+    }
+
+    function nextTask12() {
+      document.body.innerHTML = `
+        <h1>СІІІІІІІУУУУУУ КРІСТІАНООО</h1>
+        <div class="card">
+          <p>Чай чи кава?</p>
+          <a href="#" onclick="alert('не а чого неправильно кароч американо ліпше')">чай</a>
+          <a href="#" onclick="nextTask13()">кава</a>
+        </div>
+      `;
+    }
+
+    function nextTask13() {
+      document.body.innerHTML = `
+        <h1>Блять але я заїбався створювати питання</h1>
+        <div class="card">
+          <p>Які джинси я виберу</p>
+          <a href="#" onclick="alert('Не той стиль 😅')">Скінні</a>
+          <a href="#" onclick="nextTask14()">Кежуал</a>
+        </div>
+      `;
+    }
+
+    function nextTask14() {
+      document.body.innerHTML = `
+        <h1>Ти шо дурочка ти бачила б мене в скінні то така хуєта</h1>
+        <div class="card">
+          <p>Любимий мультфільм</p>
+          <a href="#" onclick="alert('Не той персонаж 😅')">Губка Боб</a>
+          <a href="#" onclick="nextTask15()">От би щас мне в ссср</a>
+        </div>
+      `;
+    }
+
+    function nextTask15() {
+      document.body.innerHTML = `
+        <h1>Да сталін старался союз распался</h1>
+        <div class="card">
+          <p>Хто ліпше для мене</p>
+          <a href="#" onclick="alert('Ти шо вапше шо може бути ліпше дзідя ')">Емінем</a>
+          <a href="#" onclick="nextTask16()">Дзідзьо</a>
+        </div>
+      `;
+    }
+
+    function nextTask16() {
+      document.body.innerHTML = `
+        <h1>Тігріца</h1>
+        <div class="card">
+          <p>Любима пора року</p>
+          <a href="#" onclick="alert('Не те 😅')">Літо</a>
+          <a href="#" onclick="alert('Не те 😅')">Зима</a>
+          <a href="#" onclick="alert('Не те 😅')">Осінь</a>
+          <a href="#" onclick="nextTask17('Не те 😅')">Весна</a>
+        </div>
+      `;
+    }
+
+    function nextTask17() {
+      document.body.innerHTML = `
+        <h1>Знаєш чого весна?</h1>
+        <div class="card">
+
+          <a href="#" onclick="nextTask18()">Не</a>
+          <a href="#" onclick="nextTask18()">Не</a>
+        </div>
+      `;
+    }
+
+    function nextTask18() {
+      document.body.innerHTML = `
+        <h1>А я сам хз</h1>
+        <div class="card">
+
+          <a href="#" onclick="nextTask19()">Хіхіхіххі</a>
+          <a href="#" onclick="nextTask19()">Хахахахха</a>
+        </div>
+      `;
+    }
+
+    function nextTask19() {
+      document.body.innerHTML = `
+        <h1>То перед останнє питання а може і останнє</h1>
+        <div class="card">
+          <p>Хто я?</p>
+          <a href="#" onclick="alert('почті')">Друг</a>
+          <a href="#" onclick="nextTask20()">Ай педофіл</a>
+          <a href="#" onclick="alert('опухла????')">Підар</a>
+          <a href="#" onclick="alert('ну нє')">Тігр</a>
+        </div>
+      `;
+    }
+
+    function nextTask20() {
+      document.body.innerHTML = `
+        <h1>Кароч питання не буде скіпай</h1>
+        <div class="card">
+
+          <a href="#" onclick="finishTask()">Скіп</a>
+          <a href="#" onclick="finishTask()">Скіп</a>
+
+
+        </div>
+      `;
+    }
+
+    function finishTask() {
+      document.body.innerHTML = `
+        <h1>Фініш! 🎁</h1>
+        <div class="card">
+          <p>Вітаю, ти успішно пройшла квест із 20 запитань! Твій сюрприз чекає на тебе ❤️</p>
+          <p><strong>Скинеш відео скину на карту 3 грн</strong></p>
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>
